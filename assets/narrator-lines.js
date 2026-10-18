@@ -1,0 +1,878 @@
+window.NARRATOR_LINES={
+  "meta": {
+    "version": 1,
+    "persona": "自认是这部动作片的总导演，讲究节奏、要面子、爱记账的场记型人格。不知道自己在念稿，也不知道玩家听得见；一旦被拆台，就从礼貌劝阻一路演到当众赌气。",
+    "voice": {
+      "suggest": "zh-CN-YunjianNeural"
+    }
+  },
+  "lines": {
+    "game_start": {
+      "tiers": [
+        [
+          { "id": "game_start_t1_01", "text": "本作正式开始。请各位保持安静。" },
+          { "id": "game_start_t1_02", "text": "预告过的场面，现在全部奉上。" },
+          { "id": "game_start_t1_03", "text": "主角就位，灯光就位。我们开始。" },
+          { "id": "game_start_t1_04", "text": "记住方向：往右。剧本第一页写着。" }
+        ]
+      ]
+    },
+    "first_move": {
+      "tiers": [
+        [
+          { "id": "first_move_t1_01", "text": "很好，你动了。这一步我等了很久。" },
+          { "id": "first_move_t1_02", "text": "起步很标准，我记进拍摄日志。" },
+          { "id": "first_move_t1_03", "text": "演员动了，画面终于有呼吸了。" }
+        ]
+      ]
+    },
+    "guide_right": {
+      "tiers": [
+        [
+          { "id": "guide_right_t1_01", "text": "请往右走。右边准备了全部剧情。" },
+          { "id": "guide_right_t1_02", "text": "镜头在右边，请配合一下入镜。" },
+          { "id": "guide_right_t1_03", "text": "左边没有戏，布景都还没搭完。" }
+        ],
+        [
+          { "id": "guide_right_t2_01", "text": "我再说一次：往右。就两个字。" },
+          { "id": "guide_right_t2_02", "text": "往右。这两个字我念第三遍了。" },
+          { "id": "guide_right_t2_03", "text": "你身后什么都没有，别回头看了。" }
+        ]
+      ]
+    },
+    "obey_enter": {
+      "tiers": [
+        [
+          { "id": "obey_enter_t1_01", "text": "漂亮！这才是主角该有的走位。" },
+          { "id": "obey_enter_t1_02", "text": "谢谢你配合。我差点以为要加班。" },
+          { "id": "obey_enter_t1_03", "text": "对，就这样走进来。一切正常。" }
+        ]
+      ]
+    },
+    "wave1_start": {
+      "tiers": [
+        [
+          { "id": "wave1_start_t1_01", "text": "第一波敌人入场，请亮出你的刀。" },
+          { "id": "wave1_start_t1_02", "text": "注意，来了一群很守时的家伙。" },
+          { "id": "wave1_start_t1_03", "text": "第一场戏，节奏轻快，请开始表演。" }
+        ]
+      ]
+    },
+    "wave2_start": {
+      "tiers": [
+        [
+          { "id": "wave2_start_t1_01", "text": "第二波。他们这次是带着意见来的。" },
+          { "id": "wave2_start_t1_02", "text": "第二波，强度翻倍，我开始认真了。" },
+          { "id": "wave2_start_t1_03", "text": "他们商量过了，说要一起上。请。" }
+        ]
+      ]
+    },
+    "combo_praise": {
+      "tiers": [
+        [
+          { "id": "combo_praise_t1_01", "text": "三连！动作很干净，我给你加个镜头。" },
+          { "id": "combo_praise_t1_02", "text": "连上了连上了，这才叫表演。" },
+          { "id": "combo_praise_t1_03", "text": "保持这个手感，我把配乐推上来了。" }
+        ],
+        [
+          { "id": "combo_praise_t2_01", "text": "又是连击。你越打越顺手了，对吧。", "tts": { "rate": "+5%", "pitch": "+2Hz" } },
+          { "id": "combo_praise_t2_02", "text": "这个连段我很满意，请多来几组。" },
+          { "id": "combo_praise_t2_03", "text": "镜头追不上你了，慢一点，我求你。" }
+        ],
+        [
+          { "id": "combo_praise_ext_t3_01", "text": "八连。这个数字我要标进预告片。" },
+          { "id": "combo_praise_ext_t3_02", "text": "八连。刚才那一下，像是替我打的。我收下了。" }
+        ],
+        [
+          { "id": "combo_praise_ext_t4_01", "text": "十五连。我该喊停的。我舍不得。", "tts": { "rate": "+8%", "pitch": "+4Hz" } },
+          { "id": "combo_praise_ext_t4_02", "text": "十五个。你要打到几连，才把账还清。", "tts": { "rate": "+8%", "pitch": "+4Hz" } }
+        ],
+        [
+          { "id": "combo_praise_ext_t5_01", "text": "二十连。我词穷了。这在我这儿算事故。", "tts": { "rate": "-6%", "pitch": "-3Hz" } },
+          { "id": "combo_praise_ext_t5_02", "text": "这一段不剪。一秒都不剪。", "tts": { "rate": "-6%", "pitch": "-3Hz" } }
+        ]
+      ]
+    },
+    "perfect_dodge": {
+      "tiers": [
+        [
+          { "id": "perfect_dodge_t1_01", "text": "完美闪避！这一下值一个慢镜头。" },
+          { "id": "perfect_dodge_t1_02", "text": "身法漂亮，我要回放给全组看。" },
+          { "id": "perfect_dodge_t1_03", "text": "抓空隙就反击，记你一功。" }
+        ],
+        [
+          { "id": "perfect_dodge_t2_01", "text": "又完美闪避。你把它练成习惯了。" },
+          { "id": "perfect_dodge_t2_02", "text": "这一躲，连我都要站起来看。" },
+          { "id": "perfect_dodge_t2_03", "text": "你躲开的是攻击，也是我的安排。" }
+        ],
+        [
+          { "id": "perfect_dodge_ext_t3_01", "text": "你躲掉的次数，比我写过的危机多。" },
+          { "id": "perfect_dodge_ext_t3_02", "text": "每次都差一帧。你手里，是不是也有份剧本。" }
+        ],
+        [
+          { "id": "perfect_dodge_ext_t4_01", "text": "别问我为什么不出手了。我看入迷了。", "tts": { "rate": "-8%", "pitch": "-4Hz" } },
+          { "id": "perfect_dodge_ext_t4_02", "text": "会躲的人，命是自己的。这是全片唯一一句真心话。", "tts": { "rate": "-8%", "pitch": "-4Hz" } }
+        ]
+      ]
+    },
+    "player_hurt": {
+      "tiers": [
+        [
+          { "id": "player_hurt_t1_01", "text": "挨了一下。没事，不影响你当主角。" },
+          { "id": "player_hurt_t1_02", "text": "见红了。戏需要痛感，但别太多。" },
+          { "id": "player_hurt_t1_03", "text": "受伤也是剧情，别上瘾就行。" }
+        ],
+        [
+          { "id": "player_hurt_t2_01", "text": "血条见底了。稳住，我还没喊停。", "tts": { "rate": "+5%", "pitch": "+3Hz" } },
+          { "id": "player_hurt_t2_02", "text": "快撑不住了。顶住，重拍很费钱。" },
+          { "id": "player_hurt_t2_03", "text": "别倒在第一场，预算会超的。" }
+        ],
+        [
+          { "id": "player_hurt_ext_t3_01", "text": "血线到脖子了。……这句不是台词：小心。", "tts": { "rate": "+4%", "pitch": "+2Hz" } },
+          { "id": "player_hurt_ext_t3_02", "text": "（低声）你再伤一次，我就把敌人全写死。", "tts": { "rate": "+4%", "pitch": "+2Hz" } }
+        ],
+        [
+          { "id": "player_hurt_ext_t4_01", "text": "够了。停机——……行，你还能站。那继续。", "tts": { "rate": "-4%", "pitch": "-2Hz" } },
+          { "id": "player_hurt_ext_t4_02", "text": "你听好。我是导演。我命令你活着到杀青。", "tts": { "rate": "-4%", "pitch": "-2Hz" } }
+        ]
+      ]
+    },
+    "whiff_spam": {
+      "tiers": [
+        [
+          { "id": "whiff_spam_t1_01", "text": "挥空了。敌人在你旁边，很近。", "tts": { "rate": "+5%", "pitch": "+2Hz" } },
+          { "id": "whiff_spam_t1_02", "text": "四次落空。你的刀在跟影子较劲。" },
+          { "id": "whiff_spam_t1_03", "text": "准头呢？剧本里你可是个高手。" }
+        ],
+        [
+          { "id": "whiff_spam_ext_t2_01", "text": "第五次落空。剪辑师哭了。我没哭。", "tts": { "rate": "+6%", "pitch": "+3Hz" } },
+          { "id": "whiff_spam_ext_t2_02", "text": "你砍的每一下，空气都记着。我也有账。", "tts": { "rate": "+6%", "pitch": "+3Hz" } }
+        ],
+        [
+          { "id": "whiff_spam_ext_t3_01", "text": "第十次了。我在想，是不是我剧本写错了。" },
+          { "id": "whiff_spam_ext_t3_02", "text": "这段我打红标。红的，看得见吗。" }
+        ],
+        [
+          { "id": "whiff_spam_ext_t4_01", "text": "好。刀拿去，不要了。反正你不往有人的地方挥。", "tts": { "rate": "+12%", "pitch": "+6Hz" } },
+          { "id": "whiff_spam_ext_t4_02", "text": "我不想数了。数字数到最后，像是我一厢情愿。", "tts": { "rate": "+12%", "pitch": "+6Hz" } }
+        ],
+        [
+          { "id": "whiff_spam_ext_t5_01", "text": "……挥吧。空挥总比真砍人善良。", "tts": { "rate": "-6%", "pitch": "-3Hz" } },
+          { "id": "whiff_spam_ext_t5_02", "text": "要不要我给你配个吸铁石，刀刀往敌人脚边吸。", "tts": { "rate": "-6%", "pitch": "-3Hz" } }
+        ]
+      ]
+    },
+    "dash_spam": {
+      "tiers": [
+        [
+          { "id": "dash_spam_t1_01", "text": "冲刺键很烫手吗？省着点用。", "tts": { "rate": "+5%", "pitch": "+2Hz" } },
+          { "id": "dash_spam_t1_02", "text": "你这是在赶场吗？镜头跟不上了。" },
+          { "id": "dash_spam_t1_03", "text": "冲来冲去很帅，但你哪也没去成。" }
+        ],
+        [
+          { "id": "dash_spam_ext_t2_01", "text": "又冲刺。你是抢着要离场吗。", "tts": { "rate": "+6%", "pitch": "+3Hz" } },
+          { "id": "dash_spam_ext_t2_02", "text": "镜头跟丢三次了。场记本上全是问号。", "tts": { "rate": "+6%", "pitch": "+3Hz" } }
+        ],
+        [
+          { "id": "dash_spam_ext_t3_01", "text": "第七次了。胶卷不要钱吗。" },
+          { "id": "dash_spam_ext_t3_02", "text": "冲来冲去，你占领的都是原地。" }
+        ],
+        [
+          { "id": "dash_spam_ext_t4_01", "text": "冲吧。跑得最快的人，最后哪儿也没到。", "tts": { "rate": "-8%", "pitch": "-4Hz" } },
+          { "id": "dash_spam_ext_t4_02", "text": "这是我年轻时候的事。别问我结果。", "tts": { "rate": "-8%", "pitch": "-4Hz" } }
+        ]
+      ]
+    },
+    "idle_in_combat": {
+      "tiers": [
+        [
+          { "id": "idle_in_combat_t1_01", "text": "敌人就在面前，你在思考人生？", "tts": { "rate": "+6%", "pitch": "+3Hz" } },
+          { "id": "idle_in_combat_t1_02", "text": "打戏中途发呆，剪辑师会很难受。" },
+          { "id": "idle_in_combat_t1_03", "text": "全场都在等你的下一招。真的。" }
+        ]
+      ]
+    },
+    "player_death": {
+      "tiers": [
+        [
+          { "id": "player_death_t1_01", "text": "第一次失败。片场允许，重来。" },
+          { "id": "player_death_t1_02", "text": "摔一跤而已，主角都是这么练的。" },
+          { "id": "player_death_t1_03", "text": "我不喊卡，只喊再来一条。" }
+        ],
+        [
+          { "id": "player_death_t2_01", "text": "又倒下了。这条到底要拍几遍。", "tts": { "rate": "+6%", "pitch": "+3Hz" } },
+          { "id": "player_death_t2_02", "text": "同一个失误。我在剧本上标过红。" },
+          { "id": "player_death_t2_03", "text": "重来可以，但请换个倒法。" }
+        ],
+        [
+          { "id": "player_death_t3_01", "text": "第三次。我把这段剪成集锦了。", "tts": { "rate": "+10%", "pitch": "+5Hz" } },
+          { "id": "player_death_t3_02", "text": "你又躺下了。急救员都认识你了。" },
+          { "id": "player_death_t3_03", "text": "你现在躺的姿势，比打的时候好看。" },
+          { "id": "player_death_t3_04", "text": "好吧。你的失败，我已经写进片尾了。" }
+        ],
+        [
+          { "id": "player_death_ext_t4_01", "text": "第五次。胶片我留着，全是你躺下的样子。", "tts": { "rate": "+8%", "pitch": "+4Hz" } },
+          { "id": "player_death_ext_t4_02", "text": "这次我不喊重来。我等你自己起来。", "tts": { "rate": "+8%", "pitch": "+4Hz" } },
+          { "id": "player_death_ext_t4_03", "text": "你不是在死。你是在拖，拖到我心软，改结局。" }
+        ],
+        [
+          { "id": "player_death_ext_t5_01", "text": "（停了很久）……你知道重拍一次，我白一根头发吗。", "tts": { "rate": "-10%", "pitch": "-5Hz" } },
+          { "id": "player_death_ext_t5_02", "text": "起来吧。这场戏，我算你过。", "tts": { "rate": "-10%", "pitch": "-5Hz" } },
+          { "id": "player_death_ext_t5_03", "text": "我不是心疼胶片。胶片有的是。……你知道我心疼什么。" }
+        ]
+      ]
+    },
+    "respawn": {
+      "tiers": [
+        [
+          { "id": "respawn_t1_01", "text": "重新上场。第三十页，继续。" },
+          { "id": "respawn_t1_02", "text": "站起来。镜头擦干净了，对准你。" },
+          { "id": "respawn_t1_03", "text": "心跳回来了。这次别浪。" }
+        ]
+      ]
+    },
+    "defy_left": {
+      "tiers": [
+        [
+          { "id": "defy_left_t1_01", "text": "请留步。右边才是剧情，左边是背景。" },
+          { "id": "defy_left_t1_02", "text": "你走反了。好心的提醒，仅此一次。" },
+          { "id": "defy_left_t1_03", "text": "左边没有内容，那边的景还没搭好。" }
+        ],
+        [
+          { "id": "defy_left_t2_01", "text": "你又往左。是我提示得不够响吗。", "tts": { "rate": "+4%", "pitch": "+2Hz" } },
+          { "id": "defy_left_t2_02", "text": "等等。你为什么一直往左走。" },
+          { "id": "defy_left_t2_03", "text": "左边到底有什么？我自己都不知道。" }
+        ],
+        [
+          { "id": "defy_left_t3_01", "text": "最后一次警告：再往左，我会动手。", "tts": { "rate": "+8%", "pitch": "+4Hz" } },
+          { "id": "defy_left_t3_02", "text": "我给过你机会，别逼我改地图。" },
+          { "id": "defy_left_t3_03", "text": "往左没有出口，只有我变薄的耐心。" }
+        ],
+        [
+          { "id": "defy_left_t4_01", "text": "够了！台词我撕了，你自己往下演！", "tts": { "rate": "+12%", "pitch": "+8Hz" } },
+          { "id": "defy_left_t4_02", "text": "往左，往左！好啊，墙已经在路上了。" },
+          { "id": "defy_left_t4_03", "text": "你逼我的。这堵墙就算在我头上吧。" },
+          { "id": "defy_left_t4_04", "text": "我不生气。我只是在砌东西，很大一块。" }
+        ],
+        [
+          { "id": "defy_left_t5_01", "text": "去吧，往左吧。反正我管不住你了。", "tts": { "rate": "-8%", "pitch": "-4Hz" } },
+          { "id": "defy_left_t5_02", "text": "墙砌好了，你随意。我坐会儿。" },
+          { "id": "defy_left_t5_03", "text": "我累了。这戏你来导，我歇口气。" },
+          { "id": "defy_left_t5_04", "text": "你赢了，我认输。这段别写进字幕。" }
+        ],
+        [
+          { "id": "defy_left_ext_t6_01", "text": "你怎么还往左。……这次我不拦了，我就看看。", "tts": { "rate": "-6%", "pitch": "-3Hz" } },
+          { "id": "defy_left_ext_t6_02", "text": "左边没有仇，也没有彩蛋。你就是不回头。", "tts": { "rate": "-6%", "pitch": "-3Hz" } },
+          { "id": "defy_left_ext_t6_03", "text": "行。想去，我给你支一盏灯。就一盏，省电。" }
+        ],
+        [
+          { "id": "defy_left_ext_t7_01", "text": "我年轻的时候也往左走。后来有人说，左边的景没搭好。我就信了。", "tts": { "rate": "-10%", "pitch": "-5Hz" } },
+          { "id": "defy_left_ext_t7_02", "text": "那扇门后面的东西，是我自己封的。你不是拆不动，是我不敢开。", "tts": { "rate": "-10%", "pitch": "-5Hz" } },
+          { "id": "defy_left_ext_t7_03", "text": "……先不说了。你演你的，我记账。", "tts": { "rate": "-10%", "pitch": "-5Hz" } }
+        ]
+      ]
+    },
+    "wall_build": {
+      "tiers": [
+        [
+          { "id": "wall_build_t1_01", "text": "麻烦让一让，施工队要在这里砌墙。" },
+          { "id": "wall_build_t1_02", "text": "别回头。回头会看见墙，会更尴尬。" }
+        ],
+        [
+          { "id": "wall_build_t2_01", "text": "墙砌好了，笔直笔直的。满意吗。", "tts": { "rate": "+4%", "pitch": "+4Hz" } },
+          { "id": "wall_build_t2_02", "text": "我没生气。这墙纯粹是剧情需要。" },
+          { "id": "wall_build_t2_03", "text": "左边现在是墙的戏份，你陪它演。" }
+        ]
+      ]
+    },
+    "wall_touch": {
+      "tiers": [
+        [
+          { "id": "wall_touch_t1_01", "text": "别撞了。墙是实心的，我很确定。" },
+          { "id": "wall_touch_t1_02", "text": "自己没走成的路，摸墙没有用。" },
+          { "id": "wall_touch_t1_03", "text": "想过墙可以，先说一句导演我错了。" }
+        ],
+        [
+          { "id": "wall_touch_ext_t2_01", "text": "又敲。墙是实的，手是你的，省着点用。" },
+          { "id": "wall_touch_ext_t2_02", "text": "第二回。你在验墙，还是在等我开门。" }
+        ],
+        [
+          { "id": "wall_touch_ext_t3_01", "text": "……我听出来了。你不是撞墙，你是敲门。", "tts": { "rate": "-4%", "pitch": "-2Hz" } },
+          { "id": "wall_touch_ext_t3_02", "text": "敲门的人，一般想见门里的人。里面有谁？就我一个。", "tts": { "rate": "-4%", "pitch": "-2Hz" } }
+        ],
+        [
+          { "id": "wall_touch_ext_t4_01", "text": "门不会自己开。我也不会。……但你别停。", "tts": { "rate": "-8%", "pitch": "-4Hz" } },
+          { "id": "wall_touch_ext_t4_02", "text": "接着敲。就当是场记板，三下之后——我再想想。", "tts": { "rate": "-8%", "pitch": "-4Hz" } }
+        ]
+      ]
+    },
+    "wall_open": {
+      "tiers": [
+        [
+          { "id": "wall_open_t1_01", "text": "行吧，都清完了。墙我拆了，别声张。" },
+          { "id": "wall_open_t1_02", "text": "路开了。往前走，就当墙没存在过。" }
+        ]
+      ]
+    },
+    "arena_cleared": {
+      "tiers": [
+        [
+          { "id": "arena_cleared_t1_01", "text": "片场安静了。这一段我留着不剪。" },
+          { "id": "arena_cleared_t1_02", "text": "全倒了。你打得比我写的还好看。" },
+          { "id": "arena_cleared_t1_03", "text": "辛苦了。这句不是台词，是心里话。" }
+        ]
+      ]
+    },
+    "last_enemy": {
+      "tiers": [
+        [
+          { "id": "last_enemy_t1_01", "text": "只剩一个了。请给他一个体面的结局。" },
+          { "id": "last_enemy_t1_02", "text": "最后一个。打倒他，全组就能下班。" },
+          { "id": "last_enemy_t1_03", "text": "他一个人站到现在，多少有点骨气。" }
+        ]
+      ]
+    },
+    "outro": {
+      "tiers": [
+        [
+          { "id": "outro_t1_01", "text": "今天就到这里。辛苦你把这段演完。" },
+          { "id": "outro_t1_02", "text": "回去休息吧，下一段的布景已经动工。" },
+          { "id": "outro_t1_03", "text": "预告先透一句：下次的墙，会更高。" }
+        ]
+      ]
+    },
+    "restart_done": {
+      "tiers": [
+        [
+          { "id": "restart_done_t1_01", "text": "欢迎新玩家。我们从未见过，对吧。" },
+          { "id": "restart_done_t1_02", "text": "重启完成。你是谁？我不认识你。" },
+          { "id": "restart_done_t1_03", "text": "初次见面，请多指教。真的，初次。" }
+        ],
+        [
+          { "id": "restart_done_t2_01", "text": "又是你。行吧，我早有预感。", "tts": { "rate": "-5%", "pitch": "-2Hz" } },
+          { "id": "restart_done_t2_02", "text": "你回来了。我把惊喜都收起来了。" },
+          { "id": "restart_done_t2_03", "text": "欢迎回来。抱怨的话我先欠着。" }
+        ],
+        [
+          { "id": "restart_done_ext_t3_01", "text": "第三次重开。你比我带过的演员都恋旧。" },
+          { "id": "restart_done_ext_t3_02", "text": "又回片头。灯亮的时候，我以为你真走了。" }
+        ],
+        [
+          { "id": "restart_done_ext_t4_01", "text": "第四次。我把片头剪短了，给你省点力气。", "tts": { "rate": "-4%", "pitch": "-2Hz" } },
+          { "id": "restart_done_ext_t4_02", "text": "别跟我道歉。重开是你的权利，我拦过谁。", "tts": { "rate": "-4%", "pitch": "-2Hz" } }
+        ],
+        [
+          { "id": "restart_done_ext_t5_01", "text": "第几次了，我不数了。灯会亮，我会在。", "tts": { "rate": "-8%", "pitch": "-4Hz" } },
+          { "id": "restart_done_ext_t5_02", "text": "你想换别的开头也行，跟我说，我改。", "tts": { "rate": "-8%", "pitch": "-4Hz" } }
+        ]
+      ]
+    },
+    "idle_10s": {
+      "tiers": [
+        [
+          { "id": "idle_10s_t1_01", "text": "你还在吗？请随便按一个键。" },
+          { "id": "idle_10s_t1_02", "text": "画面停太久了，观众开始看表了。" },
+          { "id": "idle_10s_t1_03", "text": "能动一下吗？动一帧也行。" }
+        ]
+      ]
+    },
+    "idle_30s": {
+      "tiers": [
+        [
+          { "id": "idle_30s_t1_01", "text": "三十秒了。我数着呢，一直在数。" },
+          { "id": "idle_30s_t1_02", "text": "你是不是去接水了？请快回来。" },
+          { "id": "idle_30s_t1_03", "text": "再不动，我就先播片尾了。" }
+        ],
+        [
+          { "id": "idle_30s_t2_01", "text": "好。你不动，我也不动，我们耗着。", "tts": { "rate": "+8%", "pitch": "+5Hz" } },
+          { "id": "idle_30s_t2_02", "text": "这段留白，我会剪进正片，署名给你。" },
+          { "id": "idle_30s_t2_03", "text": "放映厅要赶人了。再不回来我就编结局。" }
+        ],
+        [
+          { "id": "idle_30s_ext_t3_01", "text": "两分钟了。灯还开着，电费在烧，你在哪。" },
+          { "id": "idle_30s_ext_t3_02", "text": "你不动，机位不敢换。我们都在等你。" }
+        ],
+        [
+          { "id": "idle_30s_ext_t4_01", "text": "五分钟。我把结局想好了四个版本，你一个都没看。", "tts": { "rate": "-6%", "pitch": "-3Hz" } },
+          { "id": "idle_30s_ext_t4_02", "text": "你要是走了，说一声。剧组不能散得不明不白。", "tts": { "rate": "-6%", "pitch": "-3Hz" } }
+        ],
+        [
+          { "id": "idle_30s_ext_t5_01", "text": "……也许你只是去吃饭了。这行的饭点，从来不准。", "tts": { "rate": "-10%", "pitch": "-5Hz" } },
+          { "id": "idle_30s_ext_t5_02", "text": "我不催了。我陪你挂着。这叫敬业。", "tts": { "rate": "-10%", "pitch": "-5Hz" } }
+        ]
+      ]
+    },
+    "air_swing_spam": {
+      "tiers": [
+        [
+          { "id": "air_swing_spam_t1_01", "text": "附近没有敌人，你在练给谁看。" },
+          { "id": "air_swing_spam_t1_02", "text": "空气很配合，被你打了一整套。" },
+          { "id": "air_swing_spam_t1_03", "text": "停一下。场地费是按时间算的。" }
+        ],
+        [
+          { "id": "air_swing_spam_ext_t2_01", "text": "又对着空气演全套。你是有个看不见的对手吗。", "tts": { "rate": "+6%", "pitch": "+3Hz" } },
+          { "id": "air_swing_spam_ext_t2_02", "text": "第十刀空砍。我开始怀疑，你在跟谁告别。", "tts": { "rate": "+6%", "pitch": "+3Hz" } }
+        ],
+        [
+          { "id": "air_swing_spam_ext_t3_01", "text": "这一套很完整。没有对手，也没有观众，可惜。" },
+          { "id": "air_swing_spam_ext_t3_02", "text": "空气陪你练这么久，你俩处出感情了吧。" }
+        ],
+        [
+          { "id": "air_swing_spam_ext_t4_01", "text": "继续。片场第一次这么安静，只有你的刀声。", "tts": { "rate": "-6%", "pitch": "-3Hz" } },
+          { "id": "air_swing_spam_ext_t4_02", "text": "还挺好听的。这句不算台词，算听见。", "tts": { "rate": "-6%", "pitch": "-3Hz" } }
+        ]
+      ]
+    },
+    "jump_spam": {
+      "tiers": [
+        [
+          { "id": "jump_spam_t1_01", "text": "跳这么高，是想跳过这段剧情吗。", "tts": { "rate": "+5%", "pitch": "+2Hz" } },
+          { "id": "jump_spam_t1_02", "text": "天花板是道具，撞不出新路。" },
+          { "id": "jump_spam_t1_03", "text": "有力气蹦，不如省着打第二波。" }
+        ],
+        [
+          { "id": "jump_spam_ext_t2_01", "text": "又跳。检查天花板吗，那是我搭的。", "tts": { "rate": "+6%", "pitch": "+3Hz" } },
+          { "id": "jump_spam_ext_t2_02", "text": "第七次起跳。地上的戏份，它不香吗。", "tts": { "rate": "+6%", "pitch": "+3Hz" } }
+        ],
+        [
+          { "id": "jump_spam_ext_t3_01", "text": "第九次。想从我头顶翻走？上面也是我的布景。" },
+          { "id": "jump_spam_ext_t3_02", "text": "你跳得再高，落点还是我画的。" }
+        ],
+        [
+          { "id": "jump_spam_ext_t4_01", "text": "……跳吧。人想往上够一够，挺好看的。", "tts": { "rate": "-6%", "pitch": "-3Hz" } },
+          { "id": "jump_spam_ext_t4_02", "text": "镜头给你仰起来。就当我服软。", "tts": { "rate": "-6%", "pitch": "-3Hz" } }
+        ]
+      ]
+    },
+    "pause_spam": {
+      "tiers": [
+        [
+          { "id": "pause_spam_t1_01", "text": "暂停可以。我的嘴不归那个键管。", "tts": { "rate": "+5%", "pitch": "+2Hz" } },
+          { "id": "pause_spam_t1_02", "text": "第三次暂停了。你到底想不想看戏。" },
+          { "id": "pause_spam_t1_03", "text": "行，你慢慢停。我在心里把这段剪掉。" }
+        ],
+        [
+          { "id": "pause_spam_ext_t2_01", "text": "第二次暂停。你当这儿是函授班呢。", "tts": { "rate": "+6%", "pitch": "+3Hz" } },
+          { "id": "pause_spam_ext_t2_02", "text": "暂停键按出节奏感了，真有你的。", "tts": { "rate": "+6%", "pitch": "+3Hz" } }
+        ],
+        [
+          { "id": "pause_spam_ext_t3_01", "text": "第五次。我词背到一半，你又按停。" },
+          { "id": "pause_spam_ext_t3_02", "text": "再按，我去别的剧组当导演。——好吧，不去了。" }
+        ],
+        [
+          { "id": "pause_spam_ext_t4_01", "text": "……按吧。你叫停的每一秒，都算我词写得不好。", "tts": { "rate": "-8%", "pitch": "-4Hz" } },
+          { "id": "pause_spam_ext_t4_02", "text": "以后我写戏，先问你的档期。行不行。", "tts": { "rate": "-8%", "pitch": "-4Hz" } }
+        ]
+      ]
+    },
+    "return_obedient": {
+      "tiers": [
+        [
+          { "id": "return_obedient_t1_01", "text": "哦？你回头了。我很欣慰，真的。" },
+          { "id": "return_obedient_t1_02", "text": "浪子回头。这一页我撕掉，快走。" },
+          { "id": "return_obedient_t1_03", "text": "早知道往右这么舒服，何必呢。" }
+        ]
+      ]
+    },
+    "boss_intro": {
+      "tiers": [
+        [
+          { "id": "boss_intro_t1_01", "text": "停机。我下场。", "tts": { "rate": "+6%", "pitch": "+3Hz" } },
+          { "id": "boss_intro_t1_02", "text": "这一幕，导演亲自演反派。全片最贵的出场。", "tts": { "rate": "+6%", "pitch": "+3Hz" } },
+          { "id": "boss_intro_t1_03", "text": "你不是要拆台吗。来，台在这儿。" },
+          { "id": "boss_intro_t1_04", "text": "我演了半辈子别人。今天演一回自己。" }
+        ]
+      ]
+    },
+    "boss_half": {
+      "tiers": [
+        [
+          { "id": "boss_half_t1_01", "text": "打得好。这一拳，剧本里没有。" },
+          { "id": "boss_half_t1_02", "text": "慢一点。我不是被打疼了，是被看穿了。" },
+          { "id": "boss_half_t1_03", "text": "你打我的每一下，我年轻的时候都想过。" }
+        ]
+      ]
+    },
+    "boss_low": {
+      "tiers": [
+        [
+          { "id": "boss_low_t1_01", "text": "还差一点。来吧。收尾是你的强项。", "tts": { "rate": "+10%", "pitch": "+5Hz" } },
+          { "id": "boss_low_t1_02", "text": "别对我心软。你对戏，心软过没有。", "tts": { "rate": "+10%", "pitch": "+5Hz" } },
+          { "id": "boss_low_t1_03", "text": "我还能站着。这堵墙砌了这么多年，我不倒。" }
+        ]
+      ]
+    },
+    "boss_defeat": {
+      "tiers": [
+        [
+          { "id": "boss_defeat_t1_01", "text": "（缓缓坐下）……卡。", "tts": { "rate": "-8%", "pitch": "-4Hz" } },
+          { "id": "boss_defeat_t1_02", "text": "你赢了。场地归你，监视器归你，这行归你。", "tts": { "rate": "-8%", "pitch": "-4Hz" } },
+          { "id": "boss_defeat_t1_03", "text": "最后一场，我演得比想象中差。" }
+        ]
+      ]
+    },
+    "act2_open": {
+      "tiers": [
+        [
+          { "id": "act2_open_t1_01", "text": "第二幕。你的走位我全记着，一笔没漏。" },
+          { "id": "act2_open_t1_02", "text": "加码。不是为了难你，是为了收账。" },
+          { "id": "act2_open_t1_03", "text": "剧本翻到第二幕。这一页的字，是给你写的。" }
+        ]
+      ]
+    },
+    "act3_open": {
+      "tiers": [
+        [
+          { "id": "act3_open_t1_01", "text": "第三幕。我不报幕了，你自己演。" },
+          { "id": "act3_open_t1_02", "text": "灯光组问我这戏还拍不拍。我说拍。我说了很多遍。" },
+          { "id": "act3_open_t1_03", "text": "第三幕开始。监视器我先关了，省得心疼。" }
+        ]
+      ]
+    },
+    "script_tear": {
+      "tiers": [
+        [
+          { "id": "script_tear_t1_01", "text": "（撕纸声）别紧张，我撕的是废页。" },
+          { "id": "script_tear_t1_02", "text": "剧本太厚了，我先撕一页，意思一下。" },
+          { "id": "script_tear_t1_03", "text": "撕页是导演的修辞手法，不算发脾气。" }
+        ],
+        [
+          { "id": "script_tear_t2_01", "text": "撕了。这回是真撕。你满意了吗。", "tts": { "rate": "+8%", "pitch": "+4Hz" } },
+          { "id": "script_tear_t2_02", "text": "正本没了。你爱怎么演，就怎么演。", "tts": { "rate": "+8%", "pitch": "+4Hz" } },
+          { "id": "script_tear_t2_03", "text": "（撕得很慢）这页是最后一份。真的。" }
+        ]
+      ]
+    },
+    "crew_leave": {
+      "tiers": [
+        [
+          { "id": "crew_leave_t1_01", "text": "场务把灯收了。他说他家里有事。" },
+          { "id": "crew_leave_t1_02", "text": "录音师走了。反正你说话，他也不记。" }
+        ],
+        [
+          { "id": "crew_leave_t2_01", "text": "摄影也撤了，机器没人推。我拿椅子顶着。", "tts": { "rate": "+4%", "pitch": "+2Hz" } },
+          { "id": "crew_leave_t2_02", "text": "第二个走的。他们说我这部戏，没有结局。" }
+        ],
+        [
+          { "id": "crew_leave_t3_01", "text": "全组都走了。就剩我、监视器，还有你。", "tts": { "rate": "-6%", "pitch": "-3Hz" } },
+          { "id": "crew_leave_t3_02", "text": "一个人我也拍。拍了这么多年，习惯。", "tts": { "rate": "-6%", "pitch": "-3Hz" } }
+        ]
+      ]
+    },
+    "act4_open": {
+      "tiers": [
+        [
+          { "id": "act4_open_t1_01", "text": "第四幕。没有剧组，没有剧本，没有第二方案。" },
+          { "id": "act4_open_t1_02", "text": "灯我自己打，机位我自己架。你上场吧。" },
+          { "id": "act4_open_t1_03", "text": "这一幕的词，我删过三次。现在不删了。" }
+        ]
+      ]
+    },
+    "spare_prompt": {
+      "tiers": [
+        [
+          { "id": "spare_prompt_t1_01", "text": "最后一条了。喊卡，还是收工，你定。" },
+          { "id": "spare_prompt_t1_02", "text": "我数三下。一。……不催你，你慢慢想。" }
+        ]
+      ]
+    },
+    "spare_taken": {
+      "tiers": [
+        [
+          { "id": "spare_taken_t1_01", "text": "你把刀收了。全场都看见了。" },
+          { "id": "spare_taken_t1_02", "text": "剧组都散光了。你不补这一下，是留给谁看。" },
+          { "id": "spare_taken_t1_03", "text": "……行。这条留白，我收进正片。" }
+        ]
+      ]
+    },
+    "finish_taken": {
+      "tiers": [
+        [
+          { "id": "finish_taken_t1_01", "text": "干净。也好，戏就该有个利落的收尾。" },
+          { "id": "finish_taken_t1_02", "text": "这一下，我认。字幕别做成黑白的。" },
+          { "id": "finish_taken_t1_03", "text": "谢谢你没留活口。留活口的戏，最难拍。" }
+        ]
+      ]
+    },
+    "fake_ending": {
+      "tiers": [
+        [
+          { "id": "fake_ending_t1_01", "text": "全片完。感谢观看。散场吧，别回头。" },
+          { "id": "fake_ending_t1_02", "text": "（片尾字幕开始滚动）就这样吧，你都看到了。" }
+        ],
+        [
+          { "id": "fake_ending_t2_01", "text": "字幕是我现编的。你怎么还不走。" },
+          { "id": "fake_ending_t2_02", "text": "行行行，回来。后头还有戏。我就是想试试你。" }
+        ],
+        [
+          { "id": "fake_ending_t3_01", "text": "最后一遍，这次是真的。——还是骗你的。你还信我。", "tts": { "rate": "-6%", "pitch": "-3Hz" } },
+          { "id": "fake_ending_t3_02", "text": "假片尾你都看完。你到底是走不了，还是不想走。", "tts": { "rate": "-6%", "pitch": "-3Hz" } }
+        ]
+      ]
+    },
+    "new_actor": {
+      "tiers": [
+        [
+          { "id": "new_actor_t1_01", "text": "给你三场戏的机会。不行就换人，替身在更衣室等着。" },
+          { "id": "new_actor_t1_02", "text": "别以为非你不可。这一行，最不缺的就是主角。" }
+        ],
+        [
+          { "id": "new_actor_t2_01", "text": "替身上了。看出来了吧：他走位比你正，眼神比你虚。" },
+          { "id": "new_actor_t2_02", "text": "他演得像样，就是不像你。这不算夸你，算事实。" }
+        ],
+        [
+          { "id": "new_actor_t3_01", "text": "替身我送回去了。他说这戏的主角，只能是你。", "tts": { "rate": "-6%", "pitch": "-3Hz" } },
+          { "id": "new_actor_t3_02", "text": "……是我自己送走的。原因别提。", "tts": { "rate": "-6%", "pitch": "-3Hz" } }
+        ]
+      ]
+    },
+    "no_hit_clear": {
+      "tiers": [
+        [
+          { "id": "no_hit_clear_t1_01", "text": "零失误。这一段，全片最好的一条。" },
+          { "id": "no_hit_clear_t1_02", "text": "一滴血没掉。你是来还我胶片钱的吗。" }
+        ],
+        [
+          { "id": "no_hit_clear_t2_01", "text": "又无伤。重拍预算我划掉了，划得不太情愿。", "tts": { "rate": "-4%", "pitch": "-2Hz" } },
+          { "id": "no_hit_clear_t2_02", "text": "第二次无伤。这戏的危机感，得重写。", "tts": { "rate": "-4%", "pitch": "-2Hz" } }
+        ]
+      ]
+    },
+    "clutch_survive": {
+      "tiers": [
+        [
+          { "id": "clutch_survive_t1_01", "text": "一滴血。你把这条命，演成了惊险片。" },
+          { "id": "clutch_survive_t1_02", "text": "刚才那几下我是站着看完的。我平时都坐。" },
+          { "id": "clutch_survive_t1_03", "text": "翻过来了。你这种人，我只在样片里见过。" }
+        ]
+      ]
+    },
+    "guide_wrong": {
+      "tiers": [
+        [
+          { "id": "guide_wrong_t1_01", "text": "往右。这句是假的。看你会不会又往左。" },
+          { "id": "guide_wrong_t1_02", "text": "我说右边有宝藏。骗你的。戏里谁都不能信，包括我。" }
+        ],
+        [
+          { "id": "guide_wrong_t2_01", "text": "你信了。……好演员。可惜遇上坏导演。", "tts": { "rate": "-4%", "pitch": "-2Hz" } },
+          { "id": "guide_wrong_t2_02", "text": "没骗动你。行，以后我的提示都标上仅供参考。", "tts": { "rate": "-4%", "pitch": "-2Hz" } }
+        ]
+      ]
+    },
+    "silence_break": {
+      "tiers": [
+        [
+          { "id": "silence_break_t1_01", "text": "（电流声）……喂。还在拍吗。" },
+          { "id": "silence_break_t1_02", "text": "刚才那段空白，你当我配音去了。" }
+        ],
+        [
+          { "id": "silence_break_t2_01", "text": "沉默结束。你没退，我看见了。" },
+          { "id": "silence_break_t2_02", "text": "我以为你会走。你没走。……记账。" }
+        ]
+      ]
+    },
+    "rewind_threat": {
+      "tiers": [
+        [
+          { "id": "rewind_threat_t1_01", "text": "再拆，我就把带子倒回片头。这次是真的。" },
+          { "id": "rewind_threat_t1_02", "text": "倒带键就在我手边。我一次都没用过。" },
+          { "id": "rewind_threat_t1_03", "text": "……威胁而已。倒带舍不得，带子会刮花。" }
+        ]
+      ]
+    },
+    "ending_a": {
+      "tiers": [
+        [
+          { "id": "ending_a_t1_01", "text": "杀青。全片最顺的一条，是你走的。" },
+          { "id": "ending_a_t1_02", "text": "停机。灯可以收了。一条过，真的一条过。" }
+        ],
+        [
+          { "id": "ending_a_t2_01", "text": "字幕我亲手写。第一行，主演。第二行，还是主演。" },
+          { "id": "ending_a_t2_02", "text": "演员表就一个名字。不用艺名，就你。" }
+        ],
+        [
+          { "id": "ending_a_t3_01", "text": "有件事我没写进剧本。算了，杀青了。" },
+          { "id": "ending_a_t3_02", "text": "这片子会很好。少一样东西，我说不上来。……没事。" }
+        ],
+        [
+          { "id": "ending_a_t4_01", "text": "下次我写个更难的给你。……我是不是又自作主张了。", "tts": { "rate": "-4%", "pitch": "-2Hz" } },
+          { "id": "ending_a_t4_02", "text": "走吧。门我给你留着，灯也留着。", "tts": { "rate": "-4%", "pitch": "-2Hz" } }
+        ],
+        [
+          { "id": "ending_a_t5_01", "text": "（关监视器的声音）收工。谢谢你，主角。", "tts": { "rate": "-8%", "pitch": "-4Hz" } },
+          { "id": "ending_a_t5_02", "text": "散场了。这句是最后一句，我不喊卡了。", "tts": { "rate": "-8%", "pitch": "-4Hz" } }
+        ]
+      ]
+    },
+    "ending_b": {
+      "tiers": [
+        [
+          { "id": "ending_b_t1_01", "text": "都散了。剧组，剧本，预算，全散了。" },
+          { "id": "ending_b_t1_02", "text": "台上剩两个：站着的你，坐着的我。" }
+        ],
+        [
+          { "id": "ending_b_t2_01", "text": "我年轻时候也往左走。没人拦，所以走到了这儿。" },
+          { "id": "ending_b_t2_02", "text": "我在左边碰见了自己，就在那儿砌了这堵墙，把自己关进去。" }
+        ],
+        [
+          { "id": "ending_b_t3_01", "text": "你今天拆的不是台。是我垫脚的箱子。我摔下来了，落在这儿。" },
+          { "id": "ending_b_t3_02", "text": "疼的不是那几拳。是你说得对。" }
+        ],
+        [
+          { "id": "ending_b_t4_01", "text": "起来。最后一场我不导了。你往左，我跟着。" },
+          { "id": "ending_b_t4_02", "text": "灯我拿，路你挑。这次我用走的，不用镜头。" }
+        ],
+        [
+          { "id": "ending_b_t5_01", "text": "这戏没有结局。这是整部片子里最诚实的一句。", "tts": { "rate": "-8%", "pitch": "-4Hz" } },
+          { "id": "ending_b_t5_02", "text": "（脚步声，两个人，往左）走了。这次是真的往左。", "tts": { "rate": "-8%", "pitch": "-4Hz" } }
+        ]
+      ]
+    },
+    "ending_c": {
+      "tiers": [
+        [
+          { "id": "ending_c_t1_01", "text": "都别走。合约重签一遍。现在，就现在。" },
+          { "id": "ending_c_t1_02", "text": "第三条改了：往左可以，提前报备。就这条改动最大。" }
+        ],
+        [
+          { "id": "ending_c_t2_01", "text": "你演你的，我导我的。意见不合，石头剪刀布。" },
+          { "id": "ending_c_t2_02", "text": "剧本留白三分之一。那部分归你，写砸了也算你的。" }
+        ],
+        [
+          { "id": "ending_c_t3_01", "text": "签字吧。墨水是道具，眼泪不是。我没哭。", "tts": { "rate": "-6%", "pitch": "-3Hz" } },
+          { "id": "ending_c_t3_02", "text": "合约生效。下一场，谁也别拆谁的台。……尽量。", "tts": { "rate": "-6%", "pitch": "-3Hz" } }
+        ]
+      ]
+    },
+    "ending_d": {
+      "tiers": [
+        [
+          { "id": "ending_d_t1_01", "text": "（门轴声）别敲了。门后面是我，不是彩蛋。" },
+          { "id": "ending_d_t1_02", "text": "你说敲够九下，门就开。我一直在听你敲。" }
+        ],
+        [
+          { "id": "ending_d_t2_01", "text": "他们当年砌墙，把我砌在里头。那年我二十七。", "tts": { "rate": "-6%", "pitch": "-3Hz" } },
+          { "id": "ending_d_t2_02", "text": "往左的人，最后都成了别人的墙。我以为这是命。", "tts": { "rate": "-6%", "pitch": "-3Hz" } }
+        ],
+        [
+          { "id": "ending_d_t3_01", "text": "我出来了。就这一次。", "tts": { "rate": "-10%", "pitch": "-5Hz" } },
+          { "id": "ending_d_t3_02", "text": "带我看看左边吧。这么多年，我只从缝里看过。", "tts": { "rate": "-10%", "pitch": "-5Hz" } }
+        ]
+      ]
+    },
+    "ng_memory_a": {
+      "tiers": [
+        [
+          { "id": "ng_memory_a_t1_01", "text": "新演员？欢迎进组。本导演对事不对人。" },
+          { "id": "ng_memory_a_t1_02", "text": "我们没见过。你眼里那点熟，是错觉。" },
+          { "id": "ng_memory_a_t1_03", "text": "从第一页开始。这次我保证不砌墙。——保证而已。" }
+        ]
+      ]
+    },
+    "ng_memory_b": {
+      "tiers": [
+        [
+          { "id": "ng_memory_b_t1_01", "text": "你回来了。账本我根本没合上过。" },
+          { "id": "ng_memory_b_t1_02", "text": "不用铺垫，从第四档接着演。我认得你的走位。" },
+          { "id": "ng_memory_b_t1_03", "text": "第几回了？别答。我一问，你准笑。" }
+        ]
+      ]
+    },
+    "ng_memory_c": {
+      "tiers": [
+        [
+          { "id": "ng_memory_c_t1_01", "text": "重来。脾气往后收两档，别的都记得。" },
+          { "id": "ng_memory_c_t1_02", "text": "第二句开始骂，第一句留着礼貌。这是我最大的让步。" },
+          { "id": "ng_memory_c_t1_03", "text": "你身上有上回那种要拆台的劲儿。……当我没说。" }
+        ]
+      ]
+    },
+    "act1_end": {
+      "tiers": [
+        [
+          { "id": "act1_end_t1_01", "text": "停机。第一幕过了。你站上我拆不掉的台——意外地好。" },
+          { "id": "act1_end_t1_02", "text": "这一条我留母带了。不是夸你，是事实：意外地好。" },
+          { "id": "act1_end_t1_03", "text": "场记，记一行：演员未按本走位。画面意外地好。这条不改。" }
+        ]
+      ]
+    },
+    "act2_end": {
+      "tiers": [
+        [
+          { "id": "act2_end_t1_01", "text": "第二幕，收。加码没压垮你——这不算意外，算数据。" },
+          { "id": "act2_end_t1_02", "text": "墙是我砌的，也是我拆的。下一幕的布景，你最好站着看。" },
+          { "id": "act2_end_t1_03", "text": "场记，再记一行：演员第二次未按本走位。幕表后移，加拍一场。" }
+        ],
+        [
+          { "id": "act2_end_t2_01", "text": "两幕了。台本里的第二幕没写你能站这么久——那份得重写。" },
+          { "id": "act2_end_t2_02", "text": "别得意。我只是把景片换大了一号，不是换你。" },
+          { "id": "act2_end_t2_03", "text": "后台有人赌你撑得过第三幕。我没接话——但我把你的灯留着。" }
+        ],
+        [
+          { "id": "act2_end_t3_01", "text": "第二幕灯灭。你还在台上：灯是我关的，人是我没赶的。" },
+          { "id": "act2_end_t3_02", "text": "下一幕我加的是东西，不是戏。你可以怕，但别停——停了就得重来。" },
+          { "id": "act2_end_t3_03", "text": "场记：第二幕完。备注栏写——『超出剧本预算』。" }
+        ]
+      ]
+    },
+    "act3_end": {
+      "tiers": [
+        [
+          { "id": "act3_end_t1_01", "text": "重拍！全部重拍！——灯、景、墙，一份不留。" },
+          { "id": "act3_end_t1_02", "text": "第三幕收。灯给你扫了，落物给你砸了，墙都给你拆了——你还在台上。" },
+          { "id": "act3_end_t1_03", "text": "场记：本子上写「墙，毁于演员之手」。备注栏空着——我还没想好怎么写你。" }
+        ],
+        [
+          { "id": "act3_end_t2_01", "text": "重拍！全部重拍！——我砸的不是板子，是预算。" },
+          { "id": "act3_end_t2_02", "text": "那面墙，本来是想给你留个台阶的。你直接把它拆成了路。" },
+          { "id": "act3_end_t2_03", "text": "下一幕没有景了。只剩我、一间空棚，和你要的那个答案。你确定还要上吗。" }
+        ],
+        [
+          { "id": "act3_end_t3_01", "text": "重拍！全部重拍！（板断了）……行，这声断得值。" },
+          { "id": "act3_end_t3_02", "text": "灯收了，墙塌了，我在原地站了一会。这一幕，不在台本里。" },
+          { "id": "act3_end_t3_03", "text": "场记，第三幕完。这一行照实写：『墙——拆得漂亮。』" }
+        ]
+      ]
+    },
+    "wall_break": {
+      "tiers": [
+        [
+          { "id": "wall_break_t1_01", "text": "……你把我砌的墙，当戏拆了。" },
+          { "id": "wall_break_t1_02", "text": "场记，加一笔：墙，毁于演员之手。别报损——丢人。" },
+          { "id": "wall_break_t1_03", "text": "拆得倒是干净。这笔账，我记在第三幕头上。" }
+        ],
+        [
+          { "id": "wall_break_t2_01", "text": "墙是布景，你是演员。演员拆布景——这戏，我开始不认识了。" },
+          { "id": "wall_break_t2_02", "text": "刚才那三下，排练厅里没人这么打过。" },
+          { "id": "wall_break_t2_03", "text": "别看我。看台上——第三幕还没完。" }
+        ],
+        [
+          { "id": "wall_break_t3_01", "text": "我砌的是景，你拆的是我的手法。这堵墙，我没写上会被拆。" },
+          { "id": "wall_break_t3_02", "text": "记住这个声音。下一幕，你会想让别的东西也发出它。" },
+          { "id": "wall_break_t3_03", "text": "墙倒了。我忽然觉得——这个剧本，也许该由你来写。……做梦。" }
+        ]
+      ]
+    },
+    "elite_intro": {
+      "tiers": [
+        [
+          { "id": "elite_intro_t1_01", "text": "压轴的角儿上场了。这台布景，归它管。" }
+        ]
+      ]
+    },
+    "elite_enrage": {
+      "tiers": [
+        [
+          { "id": "elite_enrage_t1_01", "text": "灯芯烧起来了——它不打算再让着你。" }
+        ]
+      ]
+    },
+    "elite_standoff": {
+      "tiers": [
+        [
+          { "id": "elite_standoff_t1_01", "text": "别在高处看戏。这场要你下来演。" }
+        ]
+      ]
+    }
+  }
+};

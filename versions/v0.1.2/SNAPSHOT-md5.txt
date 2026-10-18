@@ -1,0 +1,5 @@
+f3ccc4248239d6f6444b052a304b6a0d *index.html
+2ef83f87f691d0f186495786604b2fa6 *game.js
+8ae6e5b294aa4f7cc5409ee66dccf573 *assets/narrator-lines.js
+fb62b58d2de0d64290839285138f3413 *assets/narrator-lines.json
+a55314b384b60d51b095a08954c77fce *assets/voice.js

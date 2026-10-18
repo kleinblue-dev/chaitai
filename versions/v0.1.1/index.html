@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#05070d">
+<link rel="icon" href="data:,">
+<title>拆台 · 一个不听话的动作游戏</title>
+<style>
+html,body{margin:0;padding:0;height:100%;background:#05070d;overflow:hidden;
+ font-family:"Segoe UI","Microsoft YaHei","PingFang SC",system-ui,sans-serif;}
+#wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;}
+#cv{display:block;border-radius:4px;box-shadow:0 0 90px #000c;}
+#touch{position:fixed;left:0;right:0;bottom:0;height:46%;pointer-events:none;display:none;z-index:5;}
+#touch.on{display:block;}
+.tbtn{position:absolute;pointer-events:auto;user-select:none;-webkit-user-select:none;
+ touch-action:none;width:66px;height:66px;border-radius:50%;
+ background:rgba(255,255,255,.08);border:2px solid rgba(255,255,255,.18);
+ color:#e8eefc;font-size:24px;line-height:1;display:flex;align-items:center;justify-content:center;}
+.tbtn:active{background:rgba(255,255,255,.22);}
+.tbtn.small{width:56px;height:56px;font-size:18px;}
+#t-left{left:16px;bottom:30px;} #t-right{left:100px;bottom:30px;}
+#t-jump{right:196px;bottom:96px;} #t-atk{right:100px;bottom:30px;} #t-dash{right:16px;bottom:104px;}
+#t-restart{right:16px;bottom:30px;display:none;border-color:rgba(255,215,106,.5);color:#ffd76a;}
+#t-restart.on{display:flex;}
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="cv"></canvas></div>
+<div id="touch">
+ <div class="tbtn" id="t-left">◀</div><div class="tbtn" id="t-right">▶</div>
+ <div class="tbtn small" id="t-jump">跳</div><div class="tbtn" id="t-atk">攻</div>
+ <div class="tbtn small" id="t-dash">冲</div><div class="tbtn small" id="t-restart">⟳</div>
+</div>
+<!-- 可选数据（不存在则用内置台词，不影响运行） -->
+<script src="assets/narrator-lines.js"></script>
+<script src="assets/voice.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
